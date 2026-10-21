@@ -13,6 +13,12 @@ Sahada iş yaparken yazdığım Bash ve PowerShell scriptleri, bir de ufak araç
 
 Her scriptin başında ne yaptığı, hangi parametreleri aldığı ve nasıl çalıştırılacağı yazıyor.
 
+## Scriptler
+
+| Script | Ne yapar |
+|---|---|
+| [`powershell/AD-Guvenlik-Denetimi.ps1`](powershell/AD-Guvenlik-Denetimi.ps1) | Active Directory'de 55 temel güvenlik kontrolü (Kerberoasting, AS-REP, inaktif ve devre dışı hesaplar, yetki devri, LAPS, parola politikası, DC'lerde TLS 1.0/1.1, SMBv1, SMB imzalama, NTLMv1, LDAP imzalama, ADCS şablon ve CA kontrolleri ESC1-4, 6-9, 15, DCSync ve AdminSDHolder ACL'leri...). Salt okunur, sonuçları CSV ve özet olarak yazar. |
+
 ## Kullanım
 
 ```bash
