@@ -1,0 +1,32 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editörler
+.vscode/
+.idea/
+*.swp
+*~
+
+# Gizli bilgi ve yerel ayarlar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+secrets.*
+*.local.ps1
+*.local.sh
+
+# Çıktılar
+*.log
+*.tmp
+*.bak
+output/
+logs/
+*.csv
+*.xlsx
